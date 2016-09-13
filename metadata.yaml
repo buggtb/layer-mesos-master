@@ -1,0 +1,16 @@
+name: layer-mesos-master
+summary: Mesos Master Charm
+maintainer: Tom Barber <Tom.Barber@tom-laptop2>
+description: |
+  Master charm for running mesos
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+resources:
+   software:
+      type: file
+      filename: mesos.zip
+      description: "The Mesos Zipfile"
+
