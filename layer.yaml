@@ -1,1 +1,1 @@
-includes: ['layer:basic', 'layer:apt']
+includes: ['layer:basic', 'layer:apt', 'interface:zookeeper']

@@ -13,4 +13,9 @@ resources:
       type: file
       filename: mesos.zip
       description: "The Mesos Zipfile"
+series:
+  - xenial
+requires:
+  zookeeper:
+    interface: zookeeper
 
